@@ -4,9 +4,8 @@
 import { createApp } from "https://unpkg.com/vue@3.2/dist/vue.esm-browser.js";
 import FilterInput from "./FilterInput.js";
 import Gists from "./Gists.js";
-import GitHubCorner from "./GitHubCorner.js";
 
-const USERNAME = "MichaelCurrin";
+const USERNAME = "deadflowers";
 const REPO_NAME = "gist-viewer";
 
 const app = createApp({
@@ -36,9 +35,9 @@ const app = createApp({
     <GitHubCorner :repoUrl="repoUrl"></GitHubCorner>
 
     <h2>User links</h2>
-    <p>
-      Username: <b>@{{ username }}</b>
-    </p>
+    <p> User: <b>Ray Kooyenga</b>`
+   /*   Username: <b>@{{ username }}</b> */
+    `</p>
     <p>
       <a :href="profileUrl">Profile</a>
       |
